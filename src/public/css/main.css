@@ -1,0 +1,43 @@
+body{
+    background: #4b6cb7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.custom-bg{
+    background: #abbaab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.logo{
+    width: 50%;
+    max-width: 10%;
+    max-height: 20%;
+}
+
+.carta{
+    max-width: 30%;
+}
+
+.cssmenu {
+    display: inline;
+  }
+
+.cssmenu {
+    text-align:center;
+}
+
+.cssmenu li ul
+{ 
+    display:none; 
+    position:absolute;
+    right:30%;
+    left: auto; 
+}
+
+.cssmenu{
+    margin-right:80px;
+}
